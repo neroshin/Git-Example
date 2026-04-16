@@ -14,8 +14,8 @@ function App() {
         </p>
 
         <div>
-          <label>FirstName:</label>
-          <input onChange={(e)=>setFirstName(e.target.value)}/>  
+          <label>First Name:</label>
+          <input onChange={(e)=>setFirstName(e.target.value)}/> 
         </div>
 
        <div> {firstName}</div>
