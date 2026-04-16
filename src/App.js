@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [firstName , setFirstName] = useState("")
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +12,13 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <div>
+          <label>FirstName:</label>
+          <input onChange={(e)=>setFirstName(e.target.value)}/> 
+        </div>
+
+       <div> {firstName}</div>
         <a
           className="App-link"
           href="https://reactjs.org"
