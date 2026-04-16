@@ -4,7 +4,8 @@ import { useState } from 'react';
 
 function App() {
 
-  const [firstName , setFirstName] = useState("")
+  const [firstName , setFirstName] = useState("");
+  const [lastname , setLastName] = useState("");
   return (
     <div className="App">
       <header className="App-header">
@@ -17,8 +18,11 @@ function App() {
           <label>First Name:</label>
           <input onChange={(e)=>setFirstName(e.target.value)}/> 
         </div>
-
-       <div> {firstName}</div>
+ <div>
+          <label>Last Name:</label>
+          <input onChange={(e)=>setLastName(e.target.value)}/> 
+        </div>
+       <div> {firstName} {lastname}</div>
         <a
           className="App-link"
           href="https://reactjs.org"
