@@ -15,7 +15,7 @@ function App() {
 
         <div>
           <label>FirstName:</label>
-          <input onChange={(e)=>setFirstName(e.target.value)}/> 
+          <input onChange={(e)=>setFirstName(e.target.value)}/>  
         </div>
 
        <div> {firstName}</div>
