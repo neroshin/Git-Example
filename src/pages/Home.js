@@ -11,6 +11,7 @@ const  Home = () => {
 
         <Header/>
         <div className='sample22'>Home Land</div>
+        <div className='sample1'>Home Land</div>
 
       </div>
    
