@@ -10,7 +10,7 @@ const  Home = () => {
       <div className="App">
 
         <Header/>
-        <div className='sample2'>Home Land</div>
+        <div className='sample22'>Home Land</div>
 
       </div>
    
